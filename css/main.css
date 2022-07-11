@@ -1,0 +1,164 @@
+body {
+    background-image: url(/images/newleaves.png);
+    background-attachment:fixed;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.logo {
+    text-align:center;
+    color:white;
+    font-size: 200%;
+    line-height: 20px;
+    background-color:rgb(215, 187, 28);
+    font-family: 'Cherry Swash', cursive;
+}
+
+ul {
+    background-color: #0e151b; /*nav bar color*/
+    height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top:0;
+    /* TODO: When I learn JavaScript or whatever, make the bar collapse into hamburger menu 
+    when the screen gets too wide. */
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', cursive;
+}
+
+
+li a {
+    color:white;
+    text-decoration: none;
+    padding: 18px 30px;
+    display: block;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', cursive;
+}
+
+li a:hover {
+    background-color:white;
+    color:black;
+}
+
+li a:active {
+    background-color: #4C6444;
+}
+
+
+/* <!-----------------------------------> */
+
+
+.texts h1, .texts h2 {
+    font-family:"Cambria", serif;
+}
+
+.texts {
+    font-family: "Cambria", serif;
+    padding: 2% 30%;
+    margin: 0 0 3% 0;
+    border-radius:25px;
+    box-shadow: 0 0 15px rgb(27, 26, 45);
+    background-color:rgba(162, 109, 102); /*, 0.683 */
+    color:white;
+}
+
+.leaves {
+    max-height: 100%;
+    position:fixed;
+}
+
+.avatar {
+    width: 25%;
+    float: right;
+    position: relative;
+    display:inline;
+    right: 7%;
+    bottom: 0;
+    /* TODO: why does the avatar not connect to the bottom of the margin */
+}
+
+.hero-text {
+    margin: 5.5% 4% 4%; /* Margins for the big main text */
+    color:white;
+    padding: 3%;
+    border: 3px solid white;
+    border-radius: 7px;
+    font-family: 'Cherry Swash', cursive;
+}
+
+.hero-text a {
+    text-decoration: none;
+    color:white;
+}
+
+.hero-text a:hover {
+    text-decoration: none;
+    background-color:white;
+    color:#0e151b;
+    
+}
+
+
+.cv {
+    font-size: 200%;
+    color: white;
+    border-radius: 10px;
+}
+
+.cv h2 {
+    font-size: 90%;
+    line-height: 130%
+}
+
+.cv p {
+    font-size: 75%;
+    line-height: 130%;
+}
+
+.form {
+    padding: 1% 15%;
+    /* float:right; */
+}
+
+#name, #email {
+    border-radius:3px;
+    line-height:30px;
+    font-size:130%;
+    font-family: "Trebuchet MS", sans-serif;
+    width: 300px;
+    padding: 0 0.5%;
+}
+
+#message {
+    border-radius:3px;
+    line-height:30px;
+    font-size:100%;
+    font-family: "Trebuchet MS", sans-serif;
+    line-height:135%;
+    width: 300px;
+    padding: 0.5% 0.5%;
+}
+
+
+/* <!-----------------------------------> */
+
+
+footer {
+    background-color:#22301E;
+    margin: -5px;
+    padding: 5px 50px 5px;
+    color:white;
+}
+
+footer a {
+    color:white;
+}
