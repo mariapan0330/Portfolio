@@ -21,6 +21,7 @@ ul {
     top: 0;
     width: 100%;
     margin-top:0;
+    z-index: 1100;
     /* TODO: When I learn JavaScript or whatever, make the bar collapse into hamburger menu 
     when the screen gets too wide. */
 }
@@ -76,23 +77,20 @@ li a:active {
     position:fixed;
 }
 
-.avatar {
-    width: 25%;
-    float: right;
-    position: relative;
-    display:inline;
-    right: 7%;
-    bottom: 0;
-    /* TODO: why does the avatar not connect to the bottom of the margin */
-}
 
 .hero-text {
-    margin: 5.5% 4% 4%; /* Margins for the big main text */
+    position: relative;
+    flex-flow: row;
+    margin: 2% 4% 4%; /* Margins for the big main text */
     color:white;
     padding: 3%;
     border: 3px solid white;
     border-radius: 7px;
     font-family: 'Cherry Swash', cursive;
+}
+
+.hero-text article {
+    width: 70%;
 }
 
 .hero-text a {
@@ -107,6 +105,13 @@ li a:active {
     
 }
 
+#avatar {
+    position: absolute;
+    height: 90%;
+    display: inline;
+    right: 4%;
+    bottom: 0;
+}
 
 .cv {
     font-size: 200%;
