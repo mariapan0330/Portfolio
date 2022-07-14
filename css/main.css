@@ -77,6 +77,11 @@ li a:active {
     position:fixed;
 }
 
+@media (min-width: 320px) {
+    .hero-text article {
+      
+    }
+   }
 
 .hero-text {
     position: relative;
